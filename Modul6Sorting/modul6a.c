@@ -1,3 +1,5 @@
+//------Counting sort -----
+
 #include<stdio.h>
 int a[100], b[100];
 int n, i, j, maks, min, num;
