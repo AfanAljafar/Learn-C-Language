@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char string [255];
+char string[255];
 int gets();
 
 void main()
