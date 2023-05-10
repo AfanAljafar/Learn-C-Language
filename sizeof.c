@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     printf("int : %Id \n", sizeof(int));
     printf("float : %Id \n", sizeof(float));
     printf("Double : %Id \n", sizeof(double));
