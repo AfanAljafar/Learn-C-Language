@@ -1,13 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
-struct{
-    char Name[100],
-    Study[100],
-    Faculty[100],
-    Class[100]
+struct
+{
+    char Name[100], Study[100], Faculty[100], Class[100]
 } d;
 
-int main(){
+int main()
+{
 
     printf("Name\t:\t");
     gets(d.Name);
@@ -19,11 +18,13 @@ int main(){
     gets(d.Faculty);
     printf("\n");
 
-    printf("Your Bio:\n");
+    /* printf("Your Bio:\n");
     printf("%s ", d.Name);
     printf("class %s ", d.Class);
     printf("Study %s ", d.Study);
-    printf("Faculty %s ", d.Faculty);
+    printf("Faculty %s ", d.Faculty); */
+
+    printf("%s studying %s at class %s faculty %s \n", d.Name, d.Study, d.Class, d.Faculty);
 
     return 0;
 }
