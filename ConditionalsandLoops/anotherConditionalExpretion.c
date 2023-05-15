@@ -6,7 +6,6 @@ int main()
     int x = 3;
 
     y = (x >= 5) ? 5 : x;
-
     printf("%d \n", y);
 
     return 0;
