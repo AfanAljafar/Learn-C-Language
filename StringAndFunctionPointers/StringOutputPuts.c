@@ -6,10 +6,10 @@ int main()
     char name[50];
     printf("enter your name : ");
     //gets(name); Note: for safety, use fgets
-    fgets(name, 50, stdin);
+    gets(name);
 
-    fputs(name, stdout);
-    printf("you are awesome!!! \n");
+    puts(name);
+    printf("your awesome!!! \n");
 
     return 0;
 }
