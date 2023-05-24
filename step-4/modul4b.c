@@ -20,6 +20,7 @@ int main()
     printf("x : %d \n", x);
     printf("y : %d \n", y);
 }
+
 void swap(int *a, int *b)
 {
     int temp;
