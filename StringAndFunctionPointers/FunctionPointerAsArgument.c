@@ -10,6 +10,9 @@ int main()
     int num, width, i;
 
     num = sizeof(arr) / sizeof(arr[0]);
+    printf("%d\n", sizeof(arr));
+    printf("%d\n", sizeof(arr[0]));
+    printf("%d\n", num);
     width = sizeof(arr[0]);
     qsort((void *)arr, num, width, compare);
     for (i = 0; i < 5; i++)
