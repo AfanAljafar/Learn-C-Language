@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int sum(int a, int b);
 
-void main(){
+int main()
+{
 
-    int x,y;
+    int x, y;
 
     printf("first number: ");
     scanf("%d", &x);
@@ -12,10 +13,12 @@ void main(){
     printf("second number: ");
     scanf("%d", &y);
 
-    printf("sum result: %d", sum(x,y));
+    printf("sum result: %d", sum(x, y));
 }
-int sum(int a, int b){
+
+int sum(int a, int b)
+{
     int c;
-    c=a+b;
+    c = a + b;
     return c;
 }

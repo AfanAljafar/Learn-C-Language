@@ -1,14 +1,13 @@
-//modul Do While
+//For To Do Loop
+
 #include <stdio.h>
 
 int i;
 
 int main()
 {
-    i = 1;
-    do
+    for (i = 1; i <= 10; i++)
     {
         printf("%d \n", i);
-        i++;
-    } while (i <= 10);
+    }
 }

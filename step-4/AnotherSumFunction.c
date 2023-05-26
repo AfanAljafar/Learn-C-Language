@@ -13,5 +13,5 @@ int main()
     scanf("%d", &x);
     printf("enter your second numbers: ");
     scanf("%d", &y);
-    printf("sum result : %d", sum(x, y));
+    printf("sum result : %d \n", sum(x, y));
 }

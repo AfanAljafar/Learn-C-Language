@@ -12,8 +12,8 @@ int main()
 
     if (strcmp(uname, "afan") == 0 && strcmp(pass, "aljafar") == 0)
     {
-        printf("Login Sukses \n");
-        printf("Silahkan Lanjutkan\n");
+        printf("Login Succes \n");
+        printf("Please Continue \n");
     }
     else
         printf("INVALID USERNAME or PASSWORD\n");
