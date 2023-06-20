@@ -14,7 +14,6 @@ void display_course(course class);
 int main()
 {
     course c1;
-    course c2;
     update_course(&c1);
     display_course(c1);
 
